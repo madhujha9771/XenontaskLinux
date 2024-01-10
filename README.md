@@ -31,7 +31,7 @@ internsctl memory getinfo
 --last-modified, -m: Print last modified time.
 
 ## Installation
-**1. Clone the repository:** git clone command cd internsctl
+**1. Clone the repository:** git clone "https://github.com/madhujha9771/XenontaskLinux/tree/main cd internsctl" 
 
 **2.Make the script executable:**  chmod +x internsctl
 
@@ -65,3 +65,7 @@ internsctl file getinfo --permissions hello.txt
 internsctl file getinfo --owner hello.txt
 
 internsctl file getinfo --last-modified hello.txt
+
+## Workflow
+![image](https://github.com/madhujha9771/XenontaskLinux/assets/86901904/92a5236b-bbfd-4fd4-a09d-d50190f1a47d)
+
