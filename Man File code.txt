@@ -1,0 +1,45 @@
+.\" Manpage for internsctl Command
+.TH internsctl 1 "January 2024" "0.1.0" "internsctl Manual"
+
+.SH NAME
+internsctl \- Custom Linux command for operations
+
+.SH SYNOPSIS
+.B internsctl
+[\fIOPTION\fR] [\fICOMMAND\fR] [\fIARGUMENTS\fR]
+
+.SH DESCRIPTION
+The \fBinternsctl\fR command is a custom Linux command for various system operations. It provides functionality to retrieve information about the CPU and memory, create new users, and get details about files.
+
+.SH OPTIONS
+.TP
+.B \-\-version
+Display the version information.
+
+.TP
+.B \-\-help
+Display command usage and examples.
+
+.SH COMMANDS
+.TP
+.B cpu getinfo
+Get CPU information (similar to lscpu).
+
+.TP
+.B memory getinfo
+Get memory information (similar to free).
+
+.TP
+.B user create <username>
+Create a new user who can log in to the Linux system and access their home directory.
+
+.TP
+.B user list [--sudo-only]
+List all regular users or users with sudo permissions.
+
+.TP
+.B file getinfo <file-name> [options]
+Get information about a file.
+
+.SH AUTHOR
+Your Name
