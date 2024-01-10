@@ -10,8 +10,18 @@ Custom Linux command for various system operations.
   
   internsctl cpu getinfo
 
-**Memory Information:**
+-**Memory Information:**
 
 internsctl memory getinfo
-**User Operations:**
+
+-**User Operations:**
  **Create user:** internsctl user create <username>
+ **List user:** internsctl user list, internsctl user list --sudo-only
+
+-**File operation:** internsctl file getinfo <file-name> [options]
+      Options:
+
+--size, -s: Print file size.
+--permissions, -p: Print file permissions.
+--owner, -o: Print file owner.
+--last-modified, -m: Print last modified time.
